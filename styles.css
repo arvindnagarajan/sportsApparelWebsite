@@ -1,0 +1,248 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+header {
+	background: rgb(255, 230, 236);
+	padding-top: 20px;
+	display: flex;
+	flex-direction: row;
+	height: 10vh;
+}
+
+.checked {
+	color: orange;
+}
+
+.logoDiv, .navigation {
+	display: flex;
+	flex-direction: row;
+	flex: 1;
+}
+
+.logoDiv {
+	justify-content: center;
+}
+
+.logoDiv img {
+	padding-right: 250px;
+	height: 45px;
+	width: 150px;
+	cursor: pointer;
+}
+
+.navList {
+	display: flex;
+	flex: 1;
+	flex-direction: row;
+	list-style: none;
+	justify-content: space-around;
+	padding-left: 40px;
+}
+
+.navList li {
+	cursor: pointer;
+}
+
+.navList li a {
+	text-decoration: none;
+	color: black;
+	padding: 5px 10px;
+	transition: 0.5s;
+}
+
+.navList li a:hover {
+	background: black;
+	color: rgb(255, 230, 236);
+}
+
+.main {
+	background: rgb(255, 230, 236);
+	padding: 65px 100px;
+	display: flex;
+}
+
+.text, .footballImage {
+	flex: 1;
+}
+
+.text {
+	margin-top: 100px;
+}
+
+.text .title {
+	font-size: 300%;
+	width: 70%;
+}
+
+.text .subtitle {
+	width: 75%;
+	padding-bottom: 15px;
+}
+
+.text button {
+	font-family: 'Poppins', sans-serif;
+	background: rgb(255, 114, 38);
+	color: white;
+	border-radius: 25px;
+	padding: 10px 35px;
+	border: none;
+	display: flex;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.text button:hover {
+	color: black;
+}
+
+.text button img {
+	margin-top: 2px;
+	margin-left: 10px;
+}
+
+.footballImage {
+	padding-top: 30px;
+	display: flex;
+	justify-content: center;
+}
+
+.footballImage img{
+	height: 500px;
+}
+
+.threeImages {
+	margin: 100px 0;
+	display: flex;
+	justify-content: space-around;
+}
+
+.threeImages > img {
+	height: 300px;
+	transition: all 0.5s;
+	cursor: pointer;
+}
+
+.threeImages > img:hover {
+	transform: scale(1.2);
+}
+
+section .title {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: space-between;
+}
+
+.title div {
+	background: orange;
+	height: 5px;
+	width: 10%;
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+.productImages {
+	margin-top: 75px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.productImages img {
+	height: 300px;
+	cursor: pointer;
+}
+
+.productImages div {
+	position: relative;
+	top: 0;
+	transition: top 0.5s;
+}
+
+.productImages div:hover {
+	top: -15px;
+}
+
+.latestProducts {
+	margin-top: 75px;
+}
+
+.latestImages {
+	margin-top: 75px;
+}
+
+.latestImages img {
+	height: 300px;
+	cursor: pointer;
+}
+
+.latestImages .row1, .latestImages .row2 {
+	display: flex;
+	justify-content: space-around;
+}
+
+.row1 div, .row2 div {
+	position: relative;
+	top: 0;
+	transition: top 0.5s;
+}
+
+.row1 div:hover, .row2 div:hover{
+	top: -15px;
+}
+
+.smartWatch {
+	background: rgb(255, 230, 236);
+	padding: 100px 0;
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+}
+
+.watchPicture, .watchText {
+	flex: 1;
+}
+
+.watchPicture img {
+	height: 350px;
+	margin-left: 150px;
+}
+
+.watchText h4 {
+	font-size: 125%;
+	color: grey;
+	font-weight: normal;
+}
+
+.watchText h1 {
+	font-size: 300%;
+}
+
+.watchText p {
+	width: 80%;
+	color: grey;
+	font-size: 90%;
+}
+
+.watchText button {
+	font-family: 'Poppins', sans-serif;
+	background: rgb(255, 114, 38);
+	color: white;
+	border-radius: 25px;
+	padding: 10px 35px;
+	border: none;
+	display: flex;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.watchText button img {
+	margin-top: 2px;
+	margin-left: 10px;
+}
+
+.watchText button:hover {
+	color: black;
+}
